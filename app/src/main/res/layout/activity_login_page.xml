@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         android:background="@drawable/rectangle_1"
-        какбордер убрать/>
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
