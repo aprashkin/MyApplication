@@ -74,12 +74,36 @@
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
-
-
         android:background="@android:color/transparent"
         android:src="@drawable/google__g__logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rectangle_5"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rectangle_5"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_5"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
