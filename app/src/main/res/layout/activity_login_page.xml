@@ -90,7 +90,8 @@
         android:background="@drawable/rectangle_5"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
     <View
         android:id="@+id/rectangle_4"
@@ -103,7 +104,38 @@
         android:background="@drawable/rectangle_5"
         android:elevation="4dp"
         app:layout_constraintBottom_toTopOf="@+id/rectangle_5"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+        android:textAppearance="@style/sign_in"
+        android:text="Sign In"/>
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toBottomOf="@+id/sign_in"
+        android:gravity="center_horizontal|center_vertical"
+        android:textAppearance="@style/sign_in"
+        android:text="Sign Up"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
