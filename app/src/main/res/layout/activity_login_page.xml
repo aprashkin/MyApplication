@@ -30,7 +30,6 @@
 
 
     <EditText
-
         android:id="@+id/editText"
         android:layout_width="270dp"
         android:layout_height="37dp"
