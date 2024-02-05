@@ -131,7 +131,8 @@
         app:layout_constraintBottom_toTopOf="@+id/rectangle_6"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Sign Up"
-        android:textAppearance="@style/sign_in"/>
+        android:onClick="reg"
+        />
 
     <Button
         android:id="@+id/rectangle_6"
@@ -146,6 +147,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Cancel"
-        android:textAppearance="@style/sign_in"
+        android:onClick="back"
+
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

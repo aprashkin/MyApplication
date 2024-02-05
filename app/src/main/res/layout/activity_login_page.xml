@@ -105,7 +105,7 @@
         app:layout_constraintBottom_toTopOf="@+id/rectangle_5"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <TextView
+    <Button
         android:id="@+id/sign_in"
         android:layout_width="124dp"
         android:layout_height="37dp"
@@ -116,12 +116,12 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal|center_vertical"
+        android:text="Sign In"
+        android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="@+id/rectangle_4"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_4"
-        android:textAppearance="@style/sign_in"
-        android:text="Sign In"/>
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4" />
 
-    <TextView
+    <Button
         android:id="@+id/sign_up"
         android:layout_width="124dp"
         android:layout_height="37dp"
@@ -131,10 +131,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="@+id/rectangle_5"
         app:layout_constraintTop_toBottomOf="@+id/sign_in"
         android:gravity="center_horizontal|center_vertical"
-        android:textAppearance="@style/sign_in"
-        android:text="Sign Up"/>
+        android:text="Sign Up" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
